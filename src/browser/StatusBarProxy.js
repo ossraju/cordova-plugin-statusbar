@@ -33,6 +33,7 @@ function notSupported (win, fail) {
 
 module.exports = {
     isVisible: false,
+    height:0,
     styleBlackTranslucent: notSupported,
     styleDefault: notSupported,
     styleLightContent: notSupported,
